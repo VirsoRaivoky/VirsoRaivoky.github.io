@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #faebd7;
+    flex-direction: column;
+    
+  }
+
+  .container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height: 50%;
+    padding: 100px;
+    border: 1px solid black;
+    max-width: 200px;
+  }
+  p{
+    justify-content: center;
+    display:flex;
+    margin-top: 10px;
+  }
+  ul{
+    font-size:x-large;
+    padding: 20px;
+  }
+.bot{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-top: 20px;
+}

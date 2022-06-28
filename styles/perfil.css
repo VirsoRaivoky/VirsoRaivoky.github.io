@@ -1,0 +1,52 @@
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:#faebd7;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border:1px solid;
+  width: 700px;
+}
+.profile{
+  width: 170px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+.container1{
+  display:flex;
+  justify-content:center;
+}
+.foto1{
+  width: 200px;
+  height: 200px;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.container2{
+  margin-bottom: 20px;
+}
+.botao{
+  margin-right: 5px;
+  text-decoration: none;
+  margin-top: 3em;
+  font-size: 30px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(235, 218, 254);
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+}
+

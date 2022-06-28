@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seu Perfil</title>
+    <link rel="stylesheet" href="/Wilson-PPI/main/styles/perfil.css" />
+  </head>
+  <style>
+    .modo-escuro {
+      background-color: rgb(75, 73, 69);
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <img src="/Wilson-PPI/main/media/OIP.png" alt="perfil" class="profile" />
+
+      <h1>@Seu perfil</h1>
+      <p>Descrição do perfil</p>
+      <div class="container2">
+        <a class="botao" href="/sobre.html" class="sobre">Sobre</a>
+
+        <a class="botao" href="/index.html" class="sobre">Pagina Principal</a>
+      </div>
+      <table>
+        <th>Configurações</th>
+        <th>Editar nome</th>
+      </table>
+      <div class="container1">
+        <div>
+          <img
+            class="foto1"
+            src="/Wilson-PPI/main/media/279521216_3183982988524908_1292405143335355022_n.jpg"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            class="foto1"
+            src="/Wilson-PPI/main/media/47228529_783683398641513_8804172469872099328_n.jpg"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            class="foto1"
+            src="/Wilson-PPI/main/media/Omega Red bom-PSD.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <button class="bot"onclick="modoEscuro()">Habilitar Modo modoEscuro</button>
+    <script>
+      function modoEscuro() {
+        var Modo = document.body
+        Modo.classList.toggle('modo-escuro')
+      }
+    </script>
+  </body>
+</html>

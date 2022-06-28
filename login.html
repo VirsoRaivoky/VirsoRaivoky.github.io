@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Login - Instagram</title>
+  </header>
+  <head>
+    <link rel="stylesheet" href="/Wilson-PPI/main/styles/login.css" />
+  </head>
+  <style>
+    .modo-escuro {
+      background-color: rgb(75, 73, 69);
+      color: white;
+      border-color: antiquewhite;
+    }
+  </style>
+
+  <body>
+    <img src="/Wilson-PPI/main/media/OIP.png" alt="" width="200px" />
+    <form>
+      <p>Entre em sua conta</p>
+      <label for="email">Email:</label>
+      <input type="text" id="email" email="Email" /><br /><br />
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" senha="Senha" /><br /><br />
+      <button type="submit" formaction="perfil.html">Login</button>
+     
+    </form>
+ <button class="bot" onclick="modoEscuro()">
+        Habilitar Modo modoEscuro
+      </button>
+    <script>
+      function modoEscuro() {
+        var Modo = document.body
+        Modo.classList.toggle('modo-escuro')
+      }
+    </script>
+  </body>
+</html>

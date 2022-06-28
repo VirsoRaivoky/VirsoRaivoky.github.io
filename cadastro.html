@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+  <header>
+    <title>Cadastro - Instagram</title>
+  </header>
+  <head>
+    <link rel="stylesheet" href="/Wilson-PPI/main/styles/cad.css" />
+  </head>
+
+  <style>
+    .modo-escuro {
+      background-color: rgb(75, 73, 69);
+      color: white;
+    }
+  </style>
+
+  <body>
+  <div class="container>
+    
+      <div class="img">
+        <img
+          src="/Wilson-PPI/main/media/OIP.png"
+          alt="logo"
+          width="200"
+          height="200"
+        /></div>
+      
+      <form>
+      <ol type="1">
+        <li>Sua senha deve conter 8 caracteres</li>
+        <li>No minimo um numeroe um simbolo</li>
+        <li>A senha deve começar com letra maíuscula</li>
+      </ol>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" nome="nome" /> <br />
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" senha="Senha" />
+      <label for="email">Email:</label>
+      <input type="text" id="email" email="Email" />
+      <a href="/login.html" class="button">Registrar</a>
+    </form>
+    <button onclick="modoEscuro()">Habilitar Modo Escuro</button>
+    <script>
+      function modoEscuro() {
+        var Modo = document.body
+        Modo.classList.toggle('modo-escuro')
+      }
+    </script>
+  </div> 
+  </body>
+
+</html>

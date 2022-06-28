@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/Wilson-PPI/main/styles/main.css" />
+  </head>
+  <style>
+    .modo-escuro {
+      background-color: rgb(75, 73, 69);
+      color: white;
+    }
+  </style>
+  
+  <header>
+    <title>Pagina Inicial - Instagram</title>
+  </header>
+
+  <body>
+    <div class="container">
+      <p>Bem-Vindo ao Instagram</p>
+      <div class="logo">
+        <img
+          src="/Wilson-PPI/main/media/OIP.png"
+          alt="logo"
+          width="200"
+          height="200"
+        />
+      </div>
+      <ul type="I">
+        <li>
+          <a href="/Wilson-PPI/main/cadastro.html">Cadastro</a>
+        </li>
+        <li>
+          <a href="/Wilson-PPI/main/login.html">Login</a>
+        </li>
+        <li>
+          <a href="/Wilson-PPI/main/sobre.html">Sobre</a>
+        </li>
+      </ul>
+    </div>
+    <button class="bot" onclick="modoEscuro()">Habilitar Modo modoEscuro</button>
+    <script>
+      function modoEscuro() {
+        var Modo = document.body
+        Modo.classList.toggle('modo-escuro')
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+html {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+p{
+  top: 50px;
+  font-size:20px;
+}
+
+body{
+  background-color: #faebd7;
+  top: 20px;
+  padding: 100px;
+  position: relative;
+  border-style:groove;
+  border-color: rgb(36, 8, 36);
+  border-width: thin;
+  max-width: 300px;
+  max-height: 1000px;
+}
+
+form{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin-bottom: 2em; 
+}
+
+img {
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+button{
+  margin-top: 10px;
+}
